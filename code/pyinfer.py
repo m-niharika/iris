@@ -1,6 +1,7 @@
 import pandas as pd
 from sklearn.externals import joblib
 import argparse
+
 import os
 
 # command line arguments
@@ -18,9 +19,9 @@ features = [
     "Petal_Width"
 ]
 
-input_datadir = "E:/Niharika/iris/data"
-test_output = "E:/Niharika/iris/output"
-input_data = "E:/Niharika/iris/data/test"
+input_datadir = "E:/Niharika/iris_model/data"
+test_output = "E:/Niharika/iris_model/output"
+input_data = "E:/Niharika/iris_model/data/test"
 
 # load the model
 mymodel = joblib.load(os.path.join(test_output, 'model.pkl')) 

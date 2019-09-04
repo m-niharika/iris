@@ -1,0 +1,12 @@
+md5: 43624ca21b4ca934538e2fe1898a8ac3
+cmd: python code/pytrain.py
+wdir: .
+deps:
+- md5: 0f40a8f87b7745f9977a48cbb04dde01
+  path: code/pytrain.py
+outs:
+- md5: 0ada0b5aec586d26706f69360a860e9d
+  path: E:/Niharika/iris_model/output/model.pkl
+  cache: true
+  metric: false
+  persist: false

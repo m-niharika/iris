@@ -1,6 +1,7 @@
 import pandas as pd
 from sklearn.discriminant_analysis import LinearDiscriminantAnalysis
 from sklearn.externals import joblib
+
 import argparse
 import os
 
@@ -26,8 +27,8 @@ features = [
     "Petal_Width"
 ]
 
-input_datadir = "E:/Niharika/iris/data"
-output_datadir = "E:/Niharika/iris/output"
+input_datadir = "E:/Niharika/iris_model/data"
+output_datadir = "E:/Niharika/iris_model/output"
 
 # import the iris training set
 irisDF = pd.read_csv(os.path.join(input_datadir, "iris.csv"), names=cols)
