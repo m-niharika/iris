@@ -1,10 +1,10 @@
-md5: 33c6217512968cd468d75447641df8e7
+md5: 71781ba92dcc96d2c3a30119d0465a7a
 cmd: python code/pyinfer.py
 wdir: .
 deps:
 - md5: 6c1c304c13858a31a087696c42bd3fa2
   path: code/pyinfer.py
-- md5: 0ada0b5aec586d26706f69360a860e9d
+- md5: 80ceb634f767260f98cdfbccc93efbec
   path: output/model.pkl
 outs:
 - md5: f0a8110001f3096dbf0f85c717496ae6

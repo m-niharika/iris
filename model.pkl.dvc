@@ -1,12 +1,14 @@
-md5: 43624ca21b4ca934538e2fe1898a8ac3
+md5: 9a46fb2ae01966aa04b6370486c38d27
 cmd: python code/pytrain.py
 wdir: .
 deps:
 - md5: 0f40a8f87b7745f9977a48cbb04dde01
   path: code/pytrain.py
+- md5: 6d93b218a7e9eea40983430660bbd9f9
+  path: data.dvc
 outs:
-- md5: 0ada0b5aec586d26706f69360a860e9d
-  path: E:/Niharika/iris_model/output/model.pkl
+- md5: 80ceb634f767260f98cdfbccc93efbec
+  path: output/model.pkl
   cache: true
   metric: false
   persist: false
