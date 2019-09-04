@@ -19,9 +19,9 @@ features = [
     "Petal_Width"
 ]
 
-input_datadir = "E:/Niharika/iris_model/data"
-test_output = "E:/Niharika/iris_model/output"
-input_data = "E:/Niharika/iris_model/data/test"
+input_datadir = "data/"
+test_output = "output/"
+input_data = "test/"
 
 # load the model
 mymodel = joblib.load(os.path.join(test_output, 'model.pkl')) 
