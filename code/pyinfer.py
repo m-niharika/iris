@@ -21,7 +21,7 @@ features = [
 
 input_datadir = "data/"
 test_output = "output/"
-input_data = "test/"
+input_data = "data/test/"
 
 # load the model
 mymodel = joblib.load(os.path.join(test_output, 'model.pkl')) 
